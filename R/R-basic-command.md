@@ -1,6 +1,6 @@
-R study notes for my college study
 
-#R basic command
+# R basic command
+R study notes for my college study
 
 ## start programming with R
 
