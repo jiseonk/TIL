@@ -5,7 +5,7 @@ This is a repository to share what I learn everyday.
 ## Git
 * [start-version-control](https://github.com/jiseonk/TIL/blob/master/Git/start-version-control.md#get-started-with-git-version-control)
 
-##Markdown
+## Markdown
 * [markdown-cheatsheet](https://github.com/jiseonk/TIL/blob/master/Markdown/markdown-cheatsheet.md#markdown-cheatsheet)
 
 ## R
