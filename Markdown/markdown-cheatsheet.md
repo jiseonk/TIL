@@ -37,7 +37,7 @@ To *italicize* text, add one asterisk before and after a word.
 ```
  ***Bold and Italic**
 ```
-To use both bold and italic, add three asterisks.
+To use both ***bold and italic***, add three asterisks.
 
 ## Line Break
 
