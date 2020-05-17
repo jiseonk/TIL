@@ -16,6 +16,14 @@ I think a link which ends with .md make a error.
 My solution is to add #title-something to end of a link.   
 If somebody has a better solution, please let me know.    
 
+## Image
+
+```
+ ![image](./img/image.png)
+```
+This way is only can be used when you make a img folder in your repository and put images in it.
+In the round brackets, write the image path in github.
+
 ## Code Block
 ```
  code blocks
