@@ -10,10 +10,10 @@
 You can opptionally add a link-title that will appear as a tooltip.  
 
 ```
-[Title](~/title.md#title, "link-title")
+[Title](~/title.md#, "link-title")
 ```
 I think a link which ends with .md make a error.  
-My solution is to add #title-something to end of a link.   
+My solution is to add # to end of a link. I don't know this is right way..  
 If somebody has a better solution, please let me know.    
 
 ## Image
