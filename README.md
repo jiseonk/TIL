@@ -11,6 +11,8 @@ This is a repository to share what I learn everyday.
 ## R
 * [R-basic-command](https://github.com/jiseonk/TIL/blob/master/R/R-basic-command.md#R-basic-command)
 
+## Javascript
+* [javascript-datatype](https://github.com/jiseonk/TIL/blob/master/Javascript/javascript-datatype.md#)
+
 ## CSS
 ## HTML
-## Javascript
