@@ -30,8 +30,17 @@ console.log(globalName);
   If you declare a variable out of the scope, it is a global variable. 
   It is recommended that you use the global variable to a minimum because it is stored in memory from program execution to end.
   
-# Constants : Immutable data type
+## Constants : Immutable data type
 ```
  const number;
 ```
- const variable cannot be changed once it is declared.  
+ Use const whenever possible.
+ * const makes immutable reference (!= immutable varaiable)
+ * It prevents the variable to be assigned to another value.
+ * arrays and objects assigned to const is mutable.
+ 
+## Data and Structure types
+  * Primitive (data type) : number, string, boolean, bigint, undefined, symbol, null
+  * Object (non data but structural type)
+  * Function (non data structure)
+      * first-class function : This is treated like other data types that can be assigned to variable, passed as parameter to another      	function, returned from other functions.
