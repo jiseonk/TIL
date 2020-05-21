@@ -1,5 +1,6 @@
 # Horner's-method
 
+in C language
 ```
 int main(void)
 {
