@@ -124,4 +124,4 @@ axis(1, xpos, col.axis="red", las=1)
 abline(0,0)
 ```
 
-![graph02](./img/02.jpeg)
+![graph02](./img/02.png)
