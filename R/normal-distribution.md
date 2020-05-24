@@ -90,6 +90,8 @@ points(ut, den(ut), lty="solid", lwd=2, type="h", col="pink")
 integrate(den, lower=height2, upper=mu+4*sigma)
 ```
 
+![graph01](./img/01.jpeg)
+
 Check whether height1 or height2 is included in 95% of this group or not.
 
 ```
@@ -121,3 +123,5 @@ axis(1, xpos, col.axis="red", las=1)
 
 abline(0,0)
 ```
+
+![graph02](./img/02.jpeg)
