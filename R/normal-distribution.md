@@ -24,7 +24,7 @@ y <- dnorm(x, mean=mu, sd=sigma)
 # type = "l" : line
 # col : color
 # xlim, ylim : numeric vectors of length 2, 
-# xlab, ylab : 
+# xlab, ylab : a title for the x, y axis
 # giving the x and y coordinates ranges.
 plot(x, y, type="l", col="red", xlim="", ylim="", xlab="", ylab="" )
 
@@ -90,7 +90,7 @@ points(ut, den(ut), lty="solid", lwd=2, type="h", col="pink")
 integrate(den, lower=height2, upper=mu+4*sigma)
 ```
 
-![graph01](./img/01.jpeg)
+![graph01](./img/Rplot01.png)
 
 Check whether height1 or height2 is included in 95% of this group or not.
 
@@ -124,4 +124,4 @@ axis(1, xpos, col.axis="red", las=1)
 abline(0,0)
 ```
 
-![graph02](./img/02.png)
+![graph02](./img/Rplot02.png)
