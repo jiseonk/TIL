@@ -63,3 +63,18 @@ const bigInt = Bigint(1234567890123456789012345678901234567890);
 ```
 Bigint represents whole number larger than 2^53-1 Which is the largest number in Javascript.
 To make bigint, add n to the end of an integer number or call the function BigInt().
+
+## String
+```
+const char = 'c';
+const name = 'Anne';
+const hello = 'Hello' + name;
+```
+A string in javascript is one or more characters surrounded by quotes. 
+```
+//By using backtick, make code simpler
+console.log(`value: ${helloBob}, type ${typeof helloBob}`);
+//If you don't use backtick, it will be like this..
+console.log('value: ' +helloBob + 'type: ` + typeof helloBob);
+```
+
