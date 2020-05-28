@@ -2,7 +2,7 @@
 
 This is written in **C language**
 
-![image](./img/recurrence-relation.png)
+![image](./img/recurrence-relation.png)  
 To solve this equation, there are three ways.
 
 ```
