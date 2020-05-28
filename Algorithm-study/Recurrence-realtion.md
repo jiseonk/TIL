@@ -2,6 +2,9 @@
 
 This is written in **C language**
 
+![image](./img/recurrence-relation.png)
+To solve this equation, there are three ways.
+
 ```
 #include <stdio.h>
 #include <math.h>
@@ -124,3 +127,5 @@ n:   4, x: 1.618034
 n:   5, x: 1.618034
 Converged!
 ```
+
+Recurrence formula 3 is the most effective way to solve the euqation.
