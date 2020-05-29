@@ -54,7 +54,7 @@ This was my biological statistics assignment.
 library("readxl")
 
 # Read data
-data<-read_excel("C:/Users/jsid1/Documents/3_Study/0_OnlineStudy/4_BiologicalStatistics/BioEnvStat_2/data/data_ShortBreak2_3.xlsx", 1)
+data<-read_excel("/data/data_ShortBreak2_3.xlsx", 1)
 x<-data$Height
 mu<-mean(x)
 sigma<-sd(x)
