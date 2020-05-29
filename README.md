@@ -14,6 +14,7 @@ This is a repository to share what I learn everyday.
 
 ## Algorithm-study
 * [Horner's-method](https://github.com/jiseonk/TIL/blob/master/Algorithm-study/Horner's-method.md#)
+* [Recurrence-realtion](https://github.com/jiseonk/TIL/blob/master/Algorithm-study/Recurrence-realtion.md#)
 
 ## Javascript
 * [javascript-datatype](https://github.com/jiseonk/TIL/blob/master/Javascript/javascript-datatype.md#)
