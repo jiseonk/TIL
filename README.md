@@ -11,6 +11,7 @@ This is a repository to share what I learn everyday.
 ## R
 * [R-basic-command](https://github.com/jiseonk/TIL/blob/master/R/R-basic-command.md#R-basic-command)
 * [normal-distribution](https://github.com/jiseonk/TIL/blob/master/R/normal-distribution.md#)
+* [two-sample-t-test](https://github.com/jiseonk/TIL/blob/master/R/two-sample-t-test.md#)
 
 ## Algorithm-study
 * [Horner's-method](https://github.com/jiseonk/TIL/blob/master/Algorithm-study/Horner's-method.md#)
