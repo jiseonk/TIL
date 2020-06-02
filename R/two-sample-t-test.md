@@ -25,6 +25,10 @@ height2 <- subset(data, Trt=="PerianthRm", select = Height)
 height2<- height2[!is.na(height2)]
 height2
 
+```
+
+```
+
 # making figure
 
 # mar : A numerical vector of the form c(bottom, left, top, right)
@@ -64,6 +68,9 @@ arrows(
   angle=90, length=0.05, col="light blue", lty="solid"
 )
 
+```
+![Rplot03](./img/Rplot03.png)
+```
 #length
 
 par(mfrow=c(1, 1), mar=c(4, 5, 1, 1), oma=c(1, 1, 1, 1))
@@ -92,6 +99,10 @@ arrows(
   rep(2, 2), c(mean(length2)+sd(length2), mean(length2)-sd(length2)), 
   angle=90, length=0.05, col="red", lty="solid"
 )
+
+```
+![Rplot04](./img/Rplot04.png)
+```
 
 #height
 
@@ -123,3 +134,4 @@ arrows(
 )
 
 ```
+![Rplot05](./img/Rplot05.png)
