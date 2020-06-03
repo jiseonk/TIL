@@ -1,5 +1,6 @@
 # Two sample T test
 
+## Example 1
 ```
 # Short breka 3-1
 data<-read.csv("data/data_ShortBreak3_1.csv", header=T)
@@ -135,3 +136,37 @@ arrows(
 
 ```
 ![Rplot05](./img/Rplot05.png)
+```
+#normality
+#width
+width1 # Intact
+width2 # PerianthRm
+width12 <- c(width1, width2)
+shapiro.test(width12)
+```
+Shapiro-Wilk normality test  
+
+data: width12  
+W = 0.98196, p-value = 0.2812  
+```
+#height
+height1 # Intact
+height2 # PerianthRm
+height12 <- c(height1, height2)
+shapiro.test(height12)
+```
+Shapiro-Wilk normality test
+
+data: height12
+W = 0.97272, p-value = 0.06827
+```
+#length
+length1 # Intact
+length2 # PerianthRm
+length12 <- c(length1, length2)
+shapiro.test(length12)
+```
+Shapiro-Wilk normality test  
+
+data: length12  
+W = 0.98029, p-value = 0.2195  
