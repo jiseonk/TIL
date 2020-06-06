@@ -8,7 +8,7 @@ The variable 'n' means nth term.
 #include <math.h>
 
 void myfunc(int n);
-void myfunc2(int n, float S);
+void myfunc2(float S);
 
 int main(void) {
 
@@ -46,7 +46,7 @@ void myfunc(int n)
 }
 
 /* Find truncation error */
-void myfunc2(int n, float S)
+void myfunc2(float S)
 {
 	float e;
 	e = fabsf(S-exp(1.0)) / fabsf(exp(1.0));
