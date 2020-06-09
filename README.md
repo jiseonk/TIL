@@ -10,6 +10,7 @@ This is a repository to share what I learn everyday.
 
 ## R
 * [R-basic-command](https://github.com/jiseonk/TIL/blob/master/R/R-basic-command.md#R-basic-command)
+* [how-to-convert-dataframe-to-vector](https://github.com/jiseonk/TIL/blob/master/R/dataframe-convert.md#)
 * [normal-distribution](https://github.com/jiseonk/TIL/blob/master/R/normal-distribution.md#)
 * [two-sample-t-test](https://github.com/jiseonk/TIL/blob/master/R/two-sample-t-test.md#)
 
