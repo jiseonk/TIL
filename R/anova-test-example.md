@@ -83,3 +83,5 @@ arrows(2, mean(hb)-sd(hb),2,mean(hb)+sd(hb), angle=90, length=0.1, col="skyblue"
 points(3, mean(hc), col="skyblue", pch=16, cex=3.0)
 arrows(3, mean(hc)-sd(hc),3,mean(hc)+sd(hc), angle=90, length=0.1, col="skyblue", code=3)
 ```
+
+![Rplot06](./img/Rplot06.png)
