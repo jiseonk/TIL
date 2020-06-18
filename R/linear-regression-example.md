@@ -81,4 +81,37 @@ plot(x2y2,cex=2)
 title(main="PetalRm")
 abline(lm2,lty=1,lwd=1,col="blue")
 ```
+
+## Checking assumptions
+
  
+ ```
+ # normality of error terms-----------------------------------
+
+shapiro.test(lm$res) # p-value = 0.1317
+shapiro.test(lm2$res) # p-value = 0.5205
+# the errors follow a normal distribution
+
+
+# Independence of error terms ------------------------------
+# install.packages("lmtest")
+library("lmtest")
+dwtest(lm) # DW = 1.4839, p-value = 0.05008
+dwtest(lm2) # DW = 1.3598, p-value = 0.0195
+
+
+# constant variance of error terms -------------------------
+
+plot(scale(lm$fitted),scale(lm$res))
+abline(h=0)
+
+
+plot(scale(lm2$fitted),scale(lm2$res))
+abline(h=0)
+
+library(car)
+ncvTest(lm) # p = 0.28637
+ncvTest(lm2) # p = 0.89268
+
+# the errors have constant variance
+ ```
