@@ -82,6 +82,8 @@ title(main="PetalRm")
 abline(lm2,lty=1,lwd=1,col="blue")
 ```
 
+![Rplot07](./img/Rplot07.png)
+
 ## Checking assumptions
 
  
