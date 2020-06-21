@@ -16,6 +16,7 @@ This is a repository to share what I learn everyday.
 * [two-sample-t-test](https://github.com/jiseonk/TIL/blob/master/R/two-sample-t-test.md#)
 * [anova-test-example](https://github.com/jiseonk/TIL/blob/master/R/anova-test-example.md#)
 * [anova-test-example02](https://github.com/jiseonk/TIL/blob/master/R/anova-test-example02.md)
+* [linear-regression-example](https://github.com/jiseonk/TIL/blob/master/R/linear-regression-example.md)
 
 ## Algorithm-study
 * [Horner's-method](https://github.com/jiseonk/TIL/blob/master/Algorithm-study/Horner's-method.md#)
