@@ -116,8 +116,7 @@ ouda-nara 0.0000000
 par(mfrow=c(2,1), mar=c(4,5,5,1), oma=c(0.5, 0.5, 0.5, 0.5))
 plot(TukeyHSD(group_aov, conf.level=0.95),)
 
-##### 여기 numeric 수정해야하는거 아녀 ?
-plot(group,temp,xlim=c(1,6),ylim=c(20,30),xlab="Area",ylab="Temperature(°C)",xaxt="n")
+plot(numeric(0),numeric(0),xlim=c(1,6),ylim=c(20,30),xlab="Area",ylab="Temperature(°C)",xaxt="n")
 title(main = "July Temperature by area (1979/7~2016/7)")
 axis(1, 1:6, c("Nara", "Kami", "Kaze", "Gojyo","Ouda", "Hari"), las=1)
 points(rep(1, length(nara)), nara, pch=1, cex=3.0)
