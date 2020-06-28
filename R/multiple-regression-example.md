@@ -126,7 +126,7 @@ detach(g4)
 
 ```
 
-![Rplot08](.img/Rplot08.png)
-![Rplot09](.img/Rplot09.png)
-![Rplot10](.img/Rplot10.png)
-![Rplot11](.img/Rplot11.png)
+![Rplot08](./img/Rplot08.png)
+![Rplot09](./img/Rplot09.png)
+![Rplot10](./img/Rplot10.png)
+![Rplot11](./img/Rplot11.png)
