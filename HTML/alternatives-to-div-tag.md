@@ -1,6 +1,6 @@
 * Date : 2020-06-29
 
-# 7 Alternatives to the <div> HTML Tag
+# 7 Alternatives to the div HTML Tag
 
 I summarized this article and added more explanations.
 
