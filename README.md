@@ -27,5 +27,5 @@ This is a repository to share what I learn everyday.
 ## Javascript
 * [javascript-datatype](https://github.com/jiseonk/TIL/blob/master/Javascript/javascript-datatype.md#)
 
-## CSS
 ## HTML
+* [alternatives-to-div-tag](https://github.com/jiseonk/TIL/blob/master/HTML/alternatives-to-div-tag.md)
